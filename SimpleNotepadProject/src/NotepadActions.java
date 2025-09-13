@@ -54,7 +54,7 @@ public class NotepadActions implements ActionListener {
         // About dialog
         } else if (source == ui.aboutItem) {
             JOptionPane.showMessageDialog(ui,
-                "Simple Notepad\nCreated by: Your Name\nID: 123456",
+                "Simple Notepad\nCreated by: Navodya Illangakoon\nID: s16983",
                 "About",
                 JOptionPane.INFORMATION_MESSAGE);
 
@@ -77,3 +77,4 @@ public class NotepadActions implements ActionListener {
         JOptionPane.showMessageDialog(ui, msg, "Error", JOptionPane.ERROR_MESSAGE);
     }
 }
+
